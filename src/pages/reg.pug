@@ -1,0 +1,20 @@
+extends ../templates/main-templ.pug
+
+block title
+    title reg page
+block style
+    link(rel="stylesheet", href="../templates/main-templ.scss")
+
+block content
+    form.login
+        div 
+            input(type="text", placeholder="login", id="username")
+            label(for="username") username
+        div 
+            input(type="text", placeholder="login", id="login")
+            label(for="login") login
+        input(type="password", placeholder="password")
+        input(type="password", placeholder="password reapeat")
+        button.btn enter
+        a.login-link(href="/") go enter
+        a(href="chats.pug") chats
