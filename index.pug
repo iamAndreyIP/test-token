@@ -1,0 +1,10 @@
+extends src/templates/main-templ.pug
+
+block title
+    title Main page
+
+block style 
+    link(rel="stylesheet", href="src/templates/main-templ.scss")
+
+block content
+    include src/pages/login.pug

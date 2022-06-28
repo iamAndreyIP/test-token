@@ -1,0 +1,31 @@
+{
+  "name": "test-token",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.pug",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.pug",
+    "build": "parcel build",
+    "start": "parcel build && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/iamAndreyIP/test-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamAndreyIP/test-token/issues"
+  },
+  "homepage": "https://github.com/iamAndreyIP/test-token#readme",
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.6.2",
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
